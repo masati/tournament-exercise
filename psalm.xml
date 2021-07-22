@@ -10,9 +10,6 @@
         <directory name="src" />
         <ignoreFiles>
             <directory name="vendor" />
-            <directory name="src/Infrastructure/Migrations" />
-            <directory name="src/Presentation/Cli/Command" />
-            <file name="src/Domain/Factory/ValueObjectFactory.php" />
         </ignoreFiles>
     </projectFiles>
 
