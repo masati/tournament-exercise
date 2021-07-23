@@ -49,6 +49,15 @@ class Participant
     }
 
     /**
+     * Returns hit points
+     * @return int
+     */
+    public function hitPoints(): int
+    {
+        return $this->hitPoints;
+    }
+
+    /**
      * This is one Blow exchange
      * @param Participant $a
      * @param Participant $b
@@ -67,7 +76,7 @@ class Participant
      * @param Participant $a
      * @param Participant $b
      * @param int $round
-     * @return int $dmg
+     * @return int
      */
     public function calculateDmg(Participant $a, Participant $b, int $round): int
     {
